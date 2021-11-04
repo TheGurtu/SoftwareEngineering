@@ -21,8 +21,7 @@ public class Main{
             System.out.println("Das Dreieck ist gleichseitig");
         }else if(a==c || b==c ||a==b){
             System.out.println("Das Dreieck ist gleichschenklig");
-        }else if(a != b && b != c && a != c){
-            System.out.println("Das Dreieck ist ungleichseitig");
-        }
+        }else System.out.println("Das Dreieck ist ungleichseitig");
+
     }
 }

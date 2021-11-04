@@ -2,6 +2,11 @@ package triangle;
 
 import java.util.Scanner;
 
+/**
+ * Main Klasse ueberprueft ein Dreieck auf Gleichseitigkeit, Gleichsckenkligkeit oder Ungleichseitigkeit
+ * @author Joseph Gargerle, Tobias Falk
+ * @version 04.11.2021
+ */
 public class Main{
     public static void main(String[] args){
         Scanner scanA = new Scanner(System.in);
